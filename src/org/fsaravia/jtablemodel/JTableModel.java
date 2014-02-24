@@ -198,7 +198,7 @@ public final class JTableModel<T extends ExportsTableModel> extends AbstractTabl
         return data.get(row).getValueAt(column);
     }
 
-    public ExportsTableModel getDataAt(int row) {
+    public T getDataAt(int row) {
         return data.get(row);
     }
 
